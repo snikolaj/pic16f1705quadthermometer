@@ -6,7 +6,7 @@ This project demonstrates how to sample multiple analog temperature sensors on a
 
 - PIC16F1705 microcontroller
 - 16x2 LCD display (with HD44780 compatible controller)
-- Temperature sensors connected to ANINx pins (RA0, RA1, RA2, RA4)
+- LMx35 sensors connected to ANINx pins (RA0, RA1, RA2, RA4)
   - Sensors must output 10mV/K with 0K = 0V
 - Appropriate power supply and decoupling capacitors
 
@@ -48,8 +48,8 @@ All functionality is contained in the main.c file, including:
 The LCD displays the temperature readings in the following format:
 
 ```
-0:  23.5C  1:  24.2C
-2: -10.8C  3:  95.6C
+0:  23C  1:  24C
+2: -10C  3:  95C
 ```
 
 Where values are formatted with one decimal place, proper alignment, and sign display for negative temperatures.
