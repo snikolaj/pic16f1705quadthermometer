@@ -1,6 +1,6 @@
 # PIC16F1705 Temperature Sensor Display Project
 
-This project demonstrates how to sample multiple analog temperature sensors on a PIC16F1705 microcontroller and display the temperature readings in Celsius on a 16x2 LCD display.
+This project demonstrates how to sample multiple analog temperature sensors on a PIC16F1705 microcontroller and display the temperature readings in Celsius on a 16x2 LCD display. It's accurate to ~0.4C.
 
 ## Hardware Requirements
 
