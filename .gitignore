@@ -1,0 +1,7 @@
+/pic16f1705thermometer.X/build
+/pic16f1705thermometer.X/dist
+*.mk
+*.xml
+*.mc3
+*.properties
+*.yml
